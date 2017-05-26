@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+ font-family: Roboto;
+ }
+ .listitem{
+     text-decoration: none;
+
+ }
+ .listitem span{
+
+ }
+ .alignc{
+    text-align: center;
+}
+ .listitem span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+ }
+ md-grid-tile{
+   font-weight: 600;
+ }

@@ -1,0 +1,22 @@
+<h2 class="alignc">
+  List of Holidays
+</h2>
+<md-input-container>
+  <input mdInput [(ngModel)]="year" placeholder="Choose an year">
+</md-input-container>
+ <md-list >
+       <md-list-item class="mdlist" *ngFor="let key of datakeys">
+         <a class="listitem" md-line   [routerLink]="['/details', key]">
+           <md-grid-list cols="3" rowHeight="40px">
+             <md-grid-tile
+                    [colspan]="3"
+                   [rowspan]="2"
+                   [style.background]="'lightgreen'">
+                  {{key|date}}
+                  {{items[key][0].name}}
+              </md-grid-tile>
+           </md-grid-list>
+           </a>
+       </md-list-item>
+       <md-divider></md-divider>
+</md-list>

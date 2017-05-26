@@ -1,0 +1,11 @@
+md-list{
+  max-width:100%;
+  color: white;
+}
+.mdlist{
+    display:block;
+    margin:0 30%;
+}
+.mat-grid-tile .mat-figure{
+  color: #ffffff;
+}

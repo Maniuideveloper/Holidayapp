@@ -1,0 +1,31 @@
+.detail-card {
+  margin:20px 30%;
+
+}
+.detail-card span{
+    padding:0 15px;
+    text-align: left;
+}
+.detail-card label{
+    color:	#003366;
+    margin-right:30px;
+}
+
+.detail-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  height: 60px;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.detail-margin {
+  margin: 10px;
+}
+.detail-bottom{
+    margin-left: 150px;
+}
+md-button{
+  
+}

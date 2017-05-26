@@ -1,0 +1,26 @@
+<h2 class="alignc">
+  Holiday Details
+</h2>
+
+<div class="alignc">
+<md-card class="detail-card" *ngFor="let item of itemdetails">
+  <md-card-header>
+    <md-card-title><h3>{{item.name}}</h3></md-card-title>
+  </md-card-header>
+  <md-card-content>
+     <section class="detail-section">
+     <h4 md-line><label>Date:</label><label>{{item.date}}</label></h4>
+     </section>
+     <section class="detail-section">
+     <h4 md-line><label>Observed On:</label> <label>{{item.observed}} </label></h4>
+     </section>
+     <section class="detail-section">
+        <h4 md-line><label>Public Holiday?</label><label>{{item.public}}</label></h4>
+     </section>
+
+  </md-card-content>
+  <md-card-actions class="detail-bottom">
+    <button md-raised-button [routerLink]="['']" >Home</button>
+  </md-card-actions>
+</md-card>
+</div>
